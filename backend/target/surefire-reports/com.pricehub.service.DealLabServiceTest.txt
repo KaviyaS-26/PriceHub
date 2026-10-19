@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.pricehub.service.DealLabServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.109 s -- in com.pricehub.service.DealLabServiceTest

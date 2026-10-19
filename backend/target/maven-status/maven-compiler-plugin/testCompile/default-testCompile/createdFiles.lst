@@ -1,0 +1,7 @@
+com\pricehub\service\DealLabServiceTest.class
+com\pricehub\engine\ValueScoreCalculatorTest.class
+com\pricehub\service\CsvImportServiceTest.class
+com\pricehub\engine\EffectiveCostCalculatorTest.class
+com\pricehub\service\ProductComparisonServiceTest.class
+com\pricehub\engine\ProductMatcherTest.class
+com\pricehub\util\WarrantyParserTest.class
