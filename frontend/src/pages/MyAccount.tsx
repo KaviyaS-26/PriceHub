@@ -101,8 +101,8 @@ export const MyAccount: React.FC<MyAccountProps> = ({ onNavigate }) => {
 
   const handleDeleteAccount = async () => {
     if (confirm('Are you sure you want to delete your account? This action cannot be undone.')) {
-      await fetch('http://localhost:8080/api/account', {
-        method: 'DELETE',
+    await fetch(`${import.meta.env.VITE_API_URL ?? 'http://localhost:8080'}/api/account`, {
+      method: 'DELETE',
         headers: { Authorization: `Bearer ${localStorage.getItem('pricehub_token')}` },
       });
       logout();
