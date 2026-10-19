@@ -6,5 +6,6 @@ RUN mvn clean package -DskipTests
 FROM eclipse-temurin:21-jre
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
+COPY data/prices.csv /app/data/prices.csv
 EXPOSE 8080
 CMD ["java", "-jar", "app.jar"]
